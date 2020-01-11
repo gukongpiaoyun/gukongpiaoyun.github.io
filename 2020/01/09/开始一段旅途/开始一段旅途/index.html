@@ -5,10 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.2.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/cloud.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/cloud.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/cloud.png">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -40,8 +39,8 @@
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     },
-    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
-    path: '',
+    localsearch: {"enable":"manual","trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
   };
 </script>
@@ -180,9 +179,34 @@
     <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat  //公益404"></i>公益 404</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 
 </nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
 </div>
     </header>
 
@@ -209,7 +233,7 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/09/%E5%BC%80%E5%A7%8B%E4%B8%80%E6%AE%B5%E6%97%85%E9%80%94/%E5%BC%80%E5%A7%8B%E4%B8%80%E6%AE%B5%E6%97%85%E9%80%94/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/touxiang.png">
       <meta itemprop="name" content="孤空飘云">
       <meta itemprop="description" content="我们一直在生活">
     </span>
@@ -251,6 +275,15 @@
 <h2 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h2><p>  这是我的第一篇博客，在写之前我依旧是举手无措，完全不知道该怎么写，怎么调试格式，怎么插入图片，怎么分标题等等我全然不知，借助网络的力量一点点摸索，知道了如何分标题，如何插入图片等等。</p>
 <h1 id="意义"><a href="#意义" class="headerlink" title="意义"></a>意义</h1><p>  尽管百般折腾，但是难道最初买下这个域名不就是为了折腾么？现在呢？我很爽快，哪怕一丝丝的成就感也足够令我激动万分。当你对一件事全然不解到仿佛握住了一根根关系线的时候那种美妙感是无法言喻的。尝试过很多折腾，做微信公众号无果而终，这次做主页不知道结局会怎样，但是这个过程一定很美妙。  </p>
 
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      
+    </div>
     </div>
 
     
@@ -338,6 +371,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="孤空飘云"
+      src="/images/touxiang.png">
   <p class="site-author-name" itemprop="name">孤空飘云</p>
   <div class="site-description" itemprop="description">我们一直在生活</div>
 </div>
@@ -439,6 +474,10 @@
 
 
 
+  
+<script src="/js/local-search.js"></script>
+
+
 
 
 
@@ -456,3 +495,5 @@
 
 </body>
 </html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
