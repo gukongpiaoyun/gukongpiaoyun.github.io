@@ -3,7 +3,7 @@
   <entry>
     <title>开始一段旅途</title>
     <url>/2020/01/09/%E5%BC%80%E5%A7%8B%E4%B8%80%E6%AE%B5%E6%97%85%E9%80%94/%E5%BC%80%E5%A7%8B%E4%B8%80%E6%AE%B5%E6%97%85%E9%80%94/</url>
-    <content><![CDATA[<p><img src="/img/111.JPG" alt></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/img/111.JPG" alt></p>
 <h1 id="开启"><a href="#开启" class="headerlink" title="开启"></a>开启</h1><h2 id="罪恶之源"><a href="#罪恶之源" class="headerlink" title="罪恶之源"></a>罪恶之源</h2><p>  2020年1月6日16:34我在阿里云上购买了一个域名<strong>incloud.life</strong>。</p>
 <h2 id="痛苦挣扎"><a href="#痛苦挣扎" class="headerlink" title="痛苦挣扎"></a>痛苦挣扎</h2><p>  个人初衷是搭建一个个人主页，买下域名的时候心里还没有想法，只是内心告诉自己这是第一步，然后开始上网查阅各种资料，最终选定了<strong>GitHub+Hexo</strong>搭建个人网站，说干就干，在安装<strong>git、node.js、Hexo</strong>过程中遇到了各种问题，一步步查阅，因为网上很多参考资料有点过时，自己安装的版本又比较新，遇到了各种麻烦，在多次修改及多次按步骤重新配置后，2020年1月7日各方面搭建成功，主页已具备雏形。</p>
 <h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h2 id="Hexo及next主题调试"><a href="#Hexo及next主题调试" class="headerlink" title="Hexo及next主题调试"></a>Hexo及next主题调试</h2><p>  2020年1月8日开始进行Hexo及next主题调试，修改了hexo常规配置内容，更多的是对next主题进行修改调试。没有一点经验的我对照着网上过时的教程以及hexo和next主题官方教程一步步调试。就一个简单的语言调试就大费周折，教程提示修改hexo配置文件语言项为<strong>zh-Hans</strong>,next主题配置中也<strong>zh-Hans</strong>,可是在next主题文件中没有<strong>zh-Hans</strong>，设置了主题语言项为<strong>zh-CN</strong>，主页仍然为英文，最终将hexo主题配置文件语言项改为<strong>zh-CN</strong>后才成功，足以见得我是多么小白了。此外很多功能添加后主页并没有显示，具体原因不详；我还在调试中。<br>  目前添加的项目只有：<br>  1、RSS订阅<br>  2、本站访客数<br>  3、博客字数统计<br>  4、github角标<br>  还有很多配置没有增加上，比如回帖功能、分享、侧边栏链接、动态背景、内嵌音乐等等，此外主页的页面也需要再次修改调试美化。两三天的时间内我依旧是比葫芦画瓢。</p>
@@ -18,7 +18,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2020/01/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
