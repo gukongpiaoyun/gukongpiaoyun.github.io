@@ -27,10 +27,10 @@
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
+      &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;p&gt;&lt;img src=&quot;/img/111.JPG&quot; alt&gt;&lt;/p&gt;
+&lt;h1 id=&quot;开启&quot;&gt;&lt;a href=&quot;#开启&quot; class=&quot;headerlink&quot; title=&quot;开启&quot;&gt;&lt;/a&gt;开启&lt;/h1&gt;&lt;h2 id=&quot;罪恶之源&quot;&gt;&lt;a href=&quot;#罪恶之源&quot; class=&quot;headerlink&quot; title=&quot;罪恶之源&quot;&gt;&lt;/a&gt;罪恶之源&lt;/h2&gt;&lt;p&gt;  2020年1月6日16:34我在阿里云上购买了一个域名&lt;strong&gt;incloud.life&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;痛苦挣扎&quot;&gt;&lt;a href=&quot;#痛苦挣扎&quot; class=&quot;headerlink&quot; title=&quot;痛苦挣扎&quot;&gt;&lt;/a&gt;痛苦挣扎&lt;/h2&gt;&lt;p&gt;  个人初衷是搭建一个个人主页，买下域名的时候心里还没有想法，只是内心告诉自己这是第一步，然后开始上网查阅各种资料，最终选定了&lt;strong&gt;GitHub+Hexo&lt;/strong&gt;搭建个人网站，说干就干，在安装&lt;strong&gt;git、node.js、Hexo&lt;/strong&gt;过程中遇到了各种问题，一步步查阅，因为网上很多参考资料有点过时，自己安装的版本又比较新，遇到了各种麻烦，在多次修改及多次按步骤重新配置后，2020年1月7日各方面搭建成功，主页已具备雏形。&lt;/p&gt;
+&lt;h1 id=&quot;调试&quot;&gt;&lt;a href=&quot;#调试&quot; class=&quot;headerlink&quot; title=&quot;调试&quot;&gt;&lt;/a&gt;调试&lt;/h1&gt;&lt;h2 id=&quot;Hexo及next主题调试&quot;&gt;&lt;a href=&quot;#Hexo及next主题调试&quot; class=&quot;headerlink&quot; title=&quot;Hexo及next主题调试&quot;&gt;&lt;/a&gt;Hexo及next主题调试&lt;/h2&gt;&lt;p&gt;  2020年1月8日开始进行Hexo及next主题调试，修改了hexo常规配置内容，更多的是对next主题进行修改调试。没有一点经验的我对照着网上过时的教程以及hexo和next主题官方教程一步步调试。就一个简单的语言调试就大费周折，教程提示修改hexo配置文件语言项为&lt;strong&gt;zh-Hans&lt;/strong&gt;,next主题配置中也&lt;strong&gt;zh-Hans&lt;/strong&gt;,可是在next主题文件中没有&lt;strong&gt;zh-Hans&lt;/strong&gt;，设置了主题语言项为&lt;strong&gt;zh-CN&lt;/strong&gt;，主页仍然为英文，最终将hexo主题配置文件语言项改为&lt;strong&gt;zh-CN&lt;/strong&gt;后才成功，足以见得我是多么小白了。此外很多功能添加后主页并没有显示，具体原因不详；我还在调试中。&lt;br&gt;  目前添加的项目只有：&lt;br&gt;  1、RSS订阅&lt;br&gt;  2、本站访客数&lt;br&gt;  3、博客字数统计&lt;br&gt;  4、github角标&lt;br&gt;  还有很多配置没有增加上，比如回帖功能、分享、侧边栏链接、动态背景、内嵌音乐等等，此外主页的页面也需要再次修改调试美化。两三天的时间内我依旧是比葫芦画瓢。&lt;/p&gt;
     
     </summary>
     
@@ -53,10 +53,14 @@
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
+      &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;
     
     </summary>
     
